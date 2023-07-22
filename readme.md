@@ -1,16 +1,16 @@
-# Dataset generator for testing stereo camera calibration algorithm
+# Dataset generator for aruco pose estimator
 
 ![Screen](doc/screen.jpg)
 
-The project includes blender scene and scripts which render the scene for 2 cameras, logdown metadata including cameras intrinsics as well as chessboard pattern poses.
+The project aims to generate dataset for aruco pose estimation algorithm validation. The blender project is equipped with the python script `main.py` which captures aruco marker at randomly generated poses. The script also dumps into the file `/tmp/aruco-dataset/parameters.json`  the auxiliary information such as marker poses, camera intrinsics and extrinsics.
 
-The rendered images are written to `/tmp/calib`
+The rendered images are written to `/tmp/aruco-dataset`
 
-| ![Left](doc/005.png) |
+| ![Captured](doc/010.jpg) |
 | :---: |
 |  Render result |
 
-as well as metadata file `parameters.json`
+The file `parameters.json` looks as
 
 ```json
 {
@@ -37,4 +37,4 @@ as well as metadata file `parameters.json`
 }
 ```
 
-All the coordinates are given in world coordinate system frame with basis vectors x,y,z directed to Right Forward Down (FRD convention).
+All the coordinates are given in world coordinate system frame with basis vectors `(x,y,z)`directed to Right Down Forward (RDF convention).
