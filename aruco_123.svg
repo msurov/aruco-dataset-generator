@@ -26,15 +26,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.5"
-     inkscape:cx="-272"
-     inkscape:cy="583"
+     inkscape:zoom="1"
+     inkscape:cx="-47.5"
+     inkscape:cy="222.5"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg107" />
+     inkscape:current-layer="g101" />
   <rect
      style="fill:none;stroke:#000000"
      id="rect114"
@@ -143,7 +143,7 @@
        y="26.428571mm"
        id="rect29" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        width="11.428571mm"
        height="11.428571mm"
        x="15.000000mm"
@@ -192,7 +192,7 @@
        y="37.857143mm"
        id="rect43" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        width="11.428571mm"
        height="11.428571mm"
        x="15.000000mm"
